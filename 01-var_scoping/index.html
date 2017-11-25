@@ -1,0 +1,19 @@
+<html>
+<head>
+<title>Var scoping</title>
+</head>
+<body>
+
+<script>
+var width = 100;
+console.log(`This is the ${width}`);
+
+function letFunction() {
+  let width = 200;
+  const height = 400;
+  console.log(`the let Width is the ${width} and Height is ${height}.`);
+}
+letFunction();
+</script>
+</body>
+</html>
